@@ -1,0 +1,12 @@
+{
+    "serviceName": "template",
+    "httpPort": 3010,
+
+    "logger": {
+        "level": "debug",
+        "json": false
+    },
+    "mongo": {},
+    "services": {},
+    "schemaDir": "../../../schemas"
+}

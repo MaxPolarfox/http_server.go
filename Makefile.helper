@@ -1,0 +1,2 @@
+SERVICE_NAME=$(shell cat package.json | python2 -c 'import json,sys; obj=json.load(sys.stdin); print obj["name"]')
+GIT_SHA := $(shell echo "${GIT_COMMIT}" | cut -c 1-7)
